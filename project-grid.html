@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-grid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="jquery.fancybox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class=" col-12 col-md-6 col-sm-6 col-lg-6 ">
+                    <p>We make your home more quality</p>
+                </div>
+                <div class=" col-12 col-md-6 col-sm-6 col-lg-6 d-flex justify-content-end">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://ads.twitter.com/"  class="fa fa-twitter"></a>
+                    <a href="https://www.google.com/"   class="fa fa-google-plus"></a>
+                    <a href="https://accounts.google.com/" class="fa fa-envelope"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light ">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" alt="logo" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">ABOUT US</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services-engine-repair.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="project-grid.html">PROJECTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">BLOG</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+             
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="pr-grid">
+          <div class="overlay-pr-grid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <h2>PROJECT GRID</h2>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </section>
+      <section class="overlay-effect">	
+          <div class="container">
+            <div class="grid-section">
+                <div class="content grid-container">
+                        <div class="filters-container">
+                            <ul class="media-boxes-filter" id="filter">
+                              <li><a class="selected" href="#" data-filter="*">All</a></li>
+                              <li><a href="#" data-filter=".enginerepair">ENGINE REPAIR</a></li>
+                              <li><a href="#" data-filter=".electrical">ELECTRICAL</a></li>
+                              <li><a href="#" data-filter=".plumbing">PLUMBING</a></li>
+                              <li><a href="#" data-filter=".repairhouse">REPAIR HOUSE</a></li>
+                              <li><a href="#" data-filter=".wallpaint">WALL PAINT</a></li>
+                            </ul>
+                        </div>
+                        <div id="grid">    
+                                <div class="media-box enginerepair">
+                                    <div class="media-box-image mb-open-popup" data-src="images\engine-repair1.jpg" data-overlay-effect="direction-bottom">
+                                        <div data-width="240" data-height="150" data-thumbnail="images\engine-repair1.jpg"></div>
+                                        
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-box enginerepair">
+                                    <div class="media-box-image mb-open-popup" data-src="images/engine-repair2.jpg" data-overlay-effect="direction-bottom">
+                                        <div data-width="240" data-height="150" data-thumbnail="images/engine-repair2.jpg"></div>
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-box electrical">
+                                    <div class="media-box-image mb-open-popup" data-src="images/electrical-img1.jpg" data-overlay-effect="direction-bottom">
+                                        <div data-width="240" data-height="150" data-thumbnail="images/electrical-img1.jpg"></div>
+                                        
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="media-box electrical">
+                                    <div class="media-box-image mb-open-popup" data-src="images/electrical-img2.jpg" data-overlay-effect="direction-bottom">
+                                        <div data-width="240" data-height="150" data-thumbnail="images/electrical-img2.jpg"></div>
+                                        
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <div class="media-box electrical">
+                                    <div class="media-box-image mb-open-popup" data-src="images/electrical-img3.jpg" data-overlay-effect="direction-bottom">
+                                        <div data-width="240" data-height="150" data-thumbnail="images/electrical-img3.jpg"></div>
+                                        
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div class="media-box plumbing">
+                                    <div class="media-box-image mb-open-popup" data-src="images/plumbing-1.jpg" data-overlay-effect="direction-bottom">
+                                        <div data-width="240" data-height="150" data-thumbnail="images/plumbing-1.jpg"></div>
+                                        
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                                <div class="media-box plumbing">
+                                    <div class="media-box-image mb-open-popup" data-src="images/plumbing-2.jpg" data-overlay-effect="direction-top">
+                                        <div data-width="240" data-height="150" data-thumbnail="images/plumbing-2.jpg"></div>
+                                        
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <div class="media-box plumbing">
+                                    <div class="media-box-image mb-open-popup" data-src="images/plumbing-3.jpg" data-overlay-effect="direction-left">
+                                        <div data-width="240" data-height="150" data-thumbnail="images/plumbing-3.jpg"></div>
+                                        
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>      
+                                <div class="media-box repairhouse">
+                                    <div class="media-box-image mb-open-popup" data-src="images/home-repair.jpg" data-overlay-effect="direction-right">
+                                        <div data-width="240" data-height="150" data-thumbnail="images/home-repair.jpg"></div>
+                                        
+                                        <div class="thumbnail-overlay">
+                                            <div class="media-box-title">
+                                                <p>Aliquam accusan dolo!</p>
+                                                <h6>Clienting Repair</h6>
+                                                <a href="#" ><i class="fa fa-search"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            <div class="media-box repairhouse">
+                                <div class="media-box-image mb-open-popup" data-src="images/home-repair2.jpg" data-overlay-effect="direction-aware">
+                                    <div data-width="240" data-height="150" data-thumbnail="images/home-repair2.jpg" ></div>
+                                    
+                                    <div class="thumbnail-overlay">
+                                        <div class="media-box-title">
+                                            <p>Aliquam accusan dolo!</p>
+                                            <h6>Clienting Repair</h6>
+                                            <a href="#" ><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="media-box wallpaint">
+                                <div class="media-box-image mb-open-popup" data-src="images/painting-1.jpg" data-overlay-effect="direction-aware-fade">
+                                    <div data-width="240" data-height="150" data-thumbnail="images/painting-1.jpg" ></div>
+                                    
+                                    <div class="thumbnail-overlay">
+                                        <div class="media-box-title">
+                                            <p>Aliquam accusan dolo!</p>
+                                            <h6>Clienting Repair</h6>
+                                            <a href="#" ><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="media-box wallpaint">
+                                <div class="media-box-image mb-open-popup" data-src="images/painting-2.jpg" data-overlay-effect="fade">
+                                    <div data-width="240" data-height="150" data-thumbnail="images/painting-2.jpg" ></div>
+                                    
+                                    <div class="thumbnail-overlay">
+                                        <div class="media-box-title">
+                                            <p>Aliquam accusan dolo!</p>
+                                            <h6>Clienting Repair</h6>
+                                            <a href="#" ><i class="fa fa-search"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                    </div>     
+                </div>       
+              </div>
+      
+          </div>
+            </section>
+     <footer class="topfooter">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-md-4 col-12 us">
+                    <div class="row ">
+                        <div class="col-md-12 col-12 ">
+                            <h4>CONTACT US</h4>
+                        </div>
+                    </div>
+                    <div class="row pt-3 mid ">
+                        <div class="col-md-12 col-12 d-flex">
+                            <i class="fa fa-mobile-phone"></i>
+                            <div>
+                              <p>+123 567 8596<br><span>support24/7weekdays</span></p>
+                            
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12 d-flex">
+                            <i class="fa fa-map-marker"></i>
+                            <p>Ashirely,New York,10052,USA</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-12 d-flex">
+                            <i class="fa fa-envelope"></i>
+                            <p>info@gmail.com</p>
+                        </div>
+                        <div class="col-md-12 col-12 d-flex">
+                            <i  class="fa fa-clock-o"></i>
+                            <p>wednesday 9:00am-9:00pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-12">
+                    <div class="row footer-lists">
+                        <div class="col-md-12 col-12">
+                            <h4>OUR SERVICES</h4>
+                        </div>
+                    </div>
+                    <div class="row lists  pt-3">
+                        <div class="col-md-6 col-12 ">
+                            <ul>
+                                <li>Electrical</li>
+                                <li>Plumbing</li>
+                                <li>Garden Repair</li>
+                                <li>Repair House</li>
+                                <li>Home Maintanence</li>
+                                <li>Wall Paint</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <ul>
+                                <li>Installation </li>
+                                <li>Garden Repair</li>
+                                <li>Plumbing</li>
+                                <li>Support24/7</li>
+                                <li>Inception House</li>
+                                <li>According Ceiling</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-12 offer text-center">
+                    <h2>GET <span class="off">25%</span> OFF</h2>
+                    <h5>Elecricala Service</h5>
+                    <p>Redeem Code:<span class="hand">HANDVHPY28</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="bottomfooter">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-md-12 col-12  text-center">
+                        <p>copyright @ 2018<span>Auhandy</span>.GET THE THEME</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+     <script src="jquery-3.6.0.min.js"></script>
+     <script src="jquery.imagesLoaded.min.js"></script>
+     <script src="jquery.isotope.min.js"></script>
+     <script src="jquery.transit.min.js"></script>
+     <script src="jquery.easing.js"></script>
+     <script src="jquery.visible.min.js"></script>
+     <script src="modernizr.custom.min.js"></script>
+     <script src="jquery.fancybox.min.js"></script> 
+     <script src="jquery.mediaBoxes.dropdown.js"></script>
+     <script src="jquery.mediaBoxes.js"></script> 
+     <script src="main.js"></script>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
